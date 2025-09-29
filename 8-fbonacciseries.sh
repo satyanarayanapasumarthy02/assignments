@@ -11,7 +11,7 @@
 
 read -p "Enter the number of terms: " n
 
-Initialize the first two terms
+# Initialize the first two terms
 a=0
 b=1
 
