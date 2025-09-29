@@ -1,6 +1,16 @@
 #!/bin/bash
 
+# How this works:
+# The script reads input from the user.
+
+# It reverses the input using the rev command.
+
+# Compares the original and reversed strings.
+
+# Prints whether the input is a palindrome or not.
+
 # Function to check palindrome
+
 is_palindrome() {
   local str="$1"
   local reversed=$(echo "$str" | rev)
